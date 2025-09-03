@@ -1,16 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Header from './components/Header';
-import BurgerList from './components/BurgerList';
+# Проект "Бургер"
 
-function App() {
-  return (
-    <>
-      <Header title="My Awesome Burger Project" />
-      <BurgerList />
-    </>
-  );
-}
+В этом проекте описан классический бургер: его ингредиенты и рецепт приготовления.
 
-ReactDOM.render(<App />, document.getElementById('root'));
+## Файлы проекта
 
+- `ingredients.md` — список ингредиентов
+- `recipe.md` — пошаговый рецепт
+- `images/burger.jpg` — изображение готового бургера
+- # Рецепт приготовления бургера
+
+1. Обжарить котлету на сковороде до готовности.
+2. Поджарить булочки на гриле или сковороде.
+3. На нижнюю булочку положить лист салата.
+4. Добавить котлету, сверху ломтик сыра.
+5. Положить кольца лука и ломтик помидора.
+6. Намазать верхнюю булочку соусом и накрыть бургер.
+7. Подавать горячим.
